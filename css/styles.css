@@ -6,32 +6,36 @@
   }
   
   .navbar-brand {
-    padding-top: 25px;
+    padding-top: 30px;
+    
   }
   
-  .navbar-brand h1 { /* Restaurant name */
+  .navbar-brand { /* Restaurant name */
     font-family: 'Lora', serif;
     color: #557c3e;
-    font-size: 1.5em;
+    font-size: 1.75em;
     text-transform: uppercase;
     font-weight: bold;
     text-shadow: 1px 1px 1px #222;
     margin-top: 0;
     margin-bottom: 0;
     line-height: .75;
+    float: left;
+    
   }
   .navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration: none;
   }
-  .navbar-brand p { /* Kosher cert */
-    color: #000;
-    text-transform: uppercase;
-    font-size: .7em;
-    margin-top: 15px;
-  }
-  .navbar-brand p span { /* Star-K */
-    vertical-align: middle;
-  }
+
+.icon-bar {
+    background-color: #557c3e;
+    border: chartreuse;
+
+}
+
+button {
+    background-color: cornsilk;
+}
 
 * {
     box-sizing: border-box;
@@ -39,23 +43,34 @@
   body {
     background-color: #CF905A; 
   }
+
+  .navbar-collapse {
+      background-color: cornsilk;
+      border:rgb(12, 13, 14);
+      
+  }
+
+  li a{
+      color: rgb(10, 10, 10);
+      border: rgb(5, 5, 5);
+  }
   h1 {
-    border: 10px solid #A21C13;
-    background-color: #FC8D04;
+
     margin-bottom: 10px;
     text-align: center;  
     font-weight: bold;
     font-family: Garamond,serif;
     color: #444C4C;
+  
+
   }
   
   h3 {
-    border: 2px solid black;
-    background-color: #F4CA21;
-    float: right;
-    width: 150px;
-    margin-top: -12px;
-    margin-right: -12px;
+    height: auto;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
     position: relative;
     text-align: center;
     color: #444C4C;
@@ -63,11 +78,11 @@
   
   p {
     width: 100%;
-    height: 80%;
-    overflow-y: auto;
-    margin-top: 35px;
+    height: 700px;
+    margin-top: 20px;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 20px;
     font-family: sans-serif;
     text-align: left;
     color: #444C4C;
@@ -77,8 +92,9 @@
     border: 2px solid black;
     background-color: #F2DA8A;
     width: 100%;
-    height: 150px;
+    height: 100%;
     padding: 10px;
+    
   }
   #Itlog {
     padding: 30px;
@@ -93,6 +109,7 @@
     .OuterEggs { 
     width: 33.33%;
     float: left;
+
      }
    }
   
