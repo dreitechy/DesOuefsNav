@@ -1,0 +1,89 @@
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #CF905A; 
+  }
+  h1 {
+    border: 10px solid #A21C13;
+    background-color: #FC8D04;
+    margin-bottom: 10px;
+    text-align: center;  
+    font-weight: bold;
+    font-family: Garamond,serif;
+    color: #444C4C;
+  }
+  
+  h3 {
+    border: 2px solid black;
+    background-color: #F4CA21;
+    float: right;
+    width: 150px;
+    margin-top: -12px;
+    margin-right: -12px;
+    position: relative;
+    text-align: center;
+    color: #444C4C;
+  }
+  
+  p {
+    width: 100%;
+    height: 80%;
+    overflow-y: auto;
+    margin-top: 35px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: sans-serif;
+    text-align: left;
+    color: #444C4C;
+  }
+  
+  #Egg1, #Egg2, #Egg3 {
+    border: 2px solid black;
+    background-color: #F2DA8A;
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+  }
+  #Itlog {
+    padding: 30px;
+  }
+  .OuterEggs{
+    padding: 20px;
+  }
+  
+  /****Desktop View*****/
+  
+  @media (min-width: 992px) {
+    .OuterEggs { 
+    width: 33.33%;
+    float: left;
+     }
+   }
+  
+  /****Tablet View****/
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+  
+  
+    .OuterEggs {
+      float: left;
+    }
+    .OuterTop {
+      width: 50%;
+    }
+    .OuterBot {
+      width: 100%;
+      clear: left;
+      }
+    }
+  
+  /****Mobile View****/
+  
+  @media(max-width: 767px) {
+    .OuterEggs {
+      height: 100px
+      margin-bottom: auto;
+    }
+  }
